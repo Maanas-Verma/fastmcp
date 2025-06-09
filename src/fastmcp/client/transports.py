@@ -8,14 +8,7 @@ import sys
 import warnings
 from collections.abc import AsyncIterator, Callable
 from pathlib import Path
-from typing import (
-    Any,
-    Literal,
-    TypedDict,
-    TypeVar,
-    cast,
-    overload,
-)
+from typing import Any, Literal, TypedDict, TypeVar, cast, overload
 
 import anyio
 import httpx
